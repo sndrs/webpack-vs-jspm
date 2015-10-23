@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gzip-size-cli": "^1.0.0",
+    "pretty-bytes": "^2.0.1"
+  }
+}
