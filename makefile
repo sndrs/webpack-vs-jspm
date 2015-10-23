@@ -1,6 +1,6 @@
 default:
-	# @make build-webpack
-	# @make build-jspm
+	@make build-webpack
+	@make build-jspm
 	@echo "\nWebpack files (gzipped):" && find webpack/build -name *.js -exec sh -c "echo '{} - \c' && ./node_modules/.bin/gzip-size {} | ./node_modules/.bin/pretty-bytes" \;
 	@echo "\nJSPM files (gzipped):" && find jspm/build -name *.js -exec sh -c "echo '{} - \c' && ./node_modules/.bin/gzip-size {} | ./node_modules/.bin/pretty-bytes" \;
 
