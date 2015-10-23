@@ -2,6 +2,8 @@
 
 Comparison of JSPM and Webpack and how they could be used the Guardian.
 
+## Requirements
+
 One single app should work with both setups. This is obviously unnatural in production, but necessary to get it there.
 
 - [ ] build and load a `universal.js` which has no dependencies and can be loaded with just a `<script>` tag.
