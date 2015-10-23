@@ -7,10 +7,10 @@ One single app should work with both setups. This is obviously unnatural in prod
 - [ ] build and load a `universal.js` which has no dependencies and can be loaded with just a `<script>` tag.
 - [ ] build a load a `snowflakes.js` which will pack lodash in a way that can be shared.
 - [ ] on domready, load `boostraps/app.js` and run its `init` method.
-- [ ] `boostraps/app.js`'s `init` should load an external script and anounce the load from a callback.
+- [ ] `boostraps/app.js`'s `init` should load a remote script and anounce the load from a callback.
 - [ ] `boostraps/app.js` should load `modules/box`, which should depend on a sass file. It should paint a red box to the screen.
 - [ ] the sass file should be transformed to CSS and be autoprefixed.
-- [ ] it should load and run a 3rd party AMD module.
+- [ ] it should load and run a remote AMD module.
 
 ## Setup
 
