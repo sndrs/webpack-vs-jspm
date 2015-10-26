@@ -8,9 +8,9 @@ Below is a list of requirments and progress toward it in each version:
 
 | Requirement | Webpack | JSPM  |
 |---|:-:|:-:|
-| Create a self-contained `universal.js` that is loaded with a `<script>` tag and logs its presence to the console. | ✔ |  |
-| Create and aysnc load an `augment.js` that includes a sharable reference to lodash and logs its presence to the console. | ✔ |  |
-| On domready, load a `boostraps/app.js` and run its `init` method. Log `_.map` to the console. | ✔ |  |
+| Create a self-contained `universal.js`. It should be loaded with a `<script>` tag and log its presence to the console. | ✔ |  |
+| Create and conditionally async load an `augment.js`. It should include a sharable reference to lodash and log its presence to the console. | ✔ |  |
+| On domready, load a `boostraps/app.js` and run its `init` method. `init` should log `_.map` to the console. | ✔ |  |
 | Load `http://beacon.krxd.net/optout_check` from `boostraps/app.js`'s `init` and anounce its arrival from a callback to the console. | ✔ |  |
 | Load `modules/box` from `boostraps/app.js` after a 2 second delay. It should append a div to the page that is rendered as a red square by a sass dependency. | ✔ |  |
 | The CSS should be autoprefixed. | ✔ |  |
