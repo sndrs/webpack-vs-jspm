@@ -10,8 +10,6 @@ sizes:
 
 install:
 	@npm i && npm prune
-	@cd jspm && npm prune && npm i && jspm clean && jspm install
-	@cd webpack && npm prune && npm i
 
 clean:
 	@rm -rf webpack_build
