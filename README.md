@@ -9,7 +9,7 @@ Below is a list of requirments and progress toward it in each version:
 | Requirement | Webpack | JSPM  |
 |---|:-:|:-:|
 | Create a self-contained `universal.js` that is loaded with a `<script>` tag. | ✔ |  |
-| Create a `snowflakes.js` that includes a sharable reference to lodash. | ✔ |  |
+| Create a `augment.js` that includes a sharable reference to lodash. | ✔ |  |
 | On domready, load a `boostraps/app.js` and run its `init` method. log `_.map` to the console. | ✔ |  |
 | Load `http://beacon.krxd.net/optout_check` from `boostraps/app.js`'s `init` and anounce the load from a callback. | ✔ |  |
 | Load `modules/box` from `boostraps/app.js` after 2 seconds. It should append a div to the page that is rendered as a red square by a sass dependency. | ✔ |  |
