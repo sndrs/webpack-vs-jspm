@@ -23,10 +23,6 @@ Below is a list of requirments and progress toward it in each version:
 
 ## Build
 
-`make`
+`make` – create dev builds.
 
-Create JSPM/webpack dev builds.
-
-`make compile`
-
-Create JSPM/webpack prod builds, and report the gzipped file sizes.
+`make compile` – create prod builds, and report the gzipped file sizes.
