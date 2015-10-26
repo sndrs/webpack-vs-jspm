@@ -3,7 +3,7 @@ import $script from 'scriptjs';
 
 function init() {
     console.log('app is loaded');
-    console.log('lodash is available in app.js (but was bundled in core.js): ', _);
+    console.log('lodash is available in app.js (but was bundled in core.js): ', _.map);
 
     console.log('attempting to load krux from external source with script.js');
     $script('http://beacon.krxd.net/optout_check', () => {

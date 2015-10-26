@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+    var config = {
+        page: 'interactive'
+    };
+    var curl = {
+        baseUrl: '/',
+        apiName: 'require'
+    };
+    </script>
+</head>
+<body>
+    <script src="webpack_build/universal.js"></script>
+    <script>
+    (function (d) {
+        if ('addEventListener' in d) {
+            var augmenter = d.createElement('script');
+            augmenter.src = 'webpack_build/augment.js';
+            document.body.appendChild(augmenter);
+        }
+    })(document);
+    </script>
+</body>
+</html>
