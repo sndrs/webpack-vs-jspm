@@ -2,11 +2,9 @@
 
 Comparison of JSPM and Webpack and how they could be used the Guardian.
 
-## Requirements
-
-One single app should work with both setups. This is obviously unnatural in production, but necessary to get it there.
-
 ### Status
+
+Below is a list of requirments and progress toward it in each version:
 
 | Requirement | Webpack | JSPM  |
 |---|:-:|:-:|
