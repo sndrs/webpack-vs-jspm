@@ -1,8 +1,0 @@
-{
-  "snowflakes": {
-    "js": "/build/snowflakes.js"
-  },
-  "universal": {
-    "js": "/build/universal.js"
-  }
-}

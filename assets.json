@@ -1,0 +1,8 @@
+{
+  "augment": {
+    "js": "/webpack_build/augment.js"
+  },
+  "universal": {
+    "js": "/webpack_build/universal.js"
+  }
+}
